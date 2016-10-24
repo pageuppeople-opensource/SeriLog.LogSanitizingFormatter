@@ -1,6 +1,11 @@
 ﻿{
-  "title": "Serilog Exceptions",
-  "version": "1.0.3",
+  "title": "Serilog.LogSanitizingFormatter",
+  "version": "1.0.0",
+  "owners": [ "PageUp" ],
+  "authors": [ "PageUp" ],
+  "description": "A log sanitizing formatter to scrub senstive data from logs",
+  "copyright": "© 2016 PageUp",
+  "tags": [ "serilog", "logsanitizingformatter", "pageup" ],
   "buildOptions": {
     "debugType": "portable"
   },
