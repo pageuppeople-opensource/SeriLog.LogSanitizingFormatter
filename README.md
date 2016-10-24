@@ -20,7 +20,7 @@ using Serilog.Exceptions;
 using Serilog.Formatting.Json;
 using SeriLog.LogSanitizingFormatter;
 
-namespace PageUp.JobSource.Infrastructure.Logging
+namespace PageUp.Infrastructure.Logging
 {
     public class Logger
     {

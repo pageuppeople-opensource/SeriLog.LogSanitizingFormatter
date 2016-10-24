@@ -4,6 +4,7 @@
   "owners": [ "PageUp" ],
   "authors": [ "PageUp" ],
   "description": "A log sanitizing formatter to scrub senstive data from logs",
+  "projectUrl": "https://github.com/PageUpPeopleOrg/SeriLog.LogSanitizingFormatter",
   "copyright": "© 2016 PageUp",
   "tags": [ "serilog", "logsanitizingformatter", "pageup" ],
   "buildOptions": {
