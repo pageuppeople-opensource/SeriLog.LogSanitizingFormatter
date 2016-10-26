@@ -63,7 +63,7 @@ namespace SeriLog.LogSanitizingFormatter
 
             var jsonObject = JsonConvert.DeserializeObject<dynamic>(tempTextWriter.GetStringBuilder().ToString());
 
-            var processedLogEvent = _processor.Process(jsonObject, _sanitizingFormatRules);
+            var processedLogEvent = JsonConvert.SerializeObject(_processor.Process(jsonObject, _sanitizingFormatRules));
 
             output.WriteLine(processedLogEvent);
         }
